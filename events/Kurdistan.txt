@@ -1,0 +1,48 @@
+###########################
+# Kurdish Events
+###########################
+
+add_namespace = kurd
+
+country_event = {
+	id = kurd.1 # Iran guarantees
+	title = "Iran guarantees our independence!"
+	desc = kurd.1.d
+	picture = GFX_
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = "Amazing!"
+		ai_chance = { factor = 100 }
+
+	}
+}
+country_event = {
+	id = kurd.2 # Iran decline guarantees
+	title = "Iran declines our request"
+	desc = kurd.2.d
+	picture = GFX_
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = "We understand... "
+		ai_chance = { factor = 100 }
+
+	}
+}
+country_event = {
+	id = kurd.3 # Jordan guarantees
+	title = "Jordan guarantees our independence"
+	desc = kurd.3.d
+	picture = GFX_
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = "Unexpected, but great!"
+		ai_chance = { factor = 100 }
+
+	}
+}
