@@ -68,7 +68,7 @@
 		mutually_exclusive = { focus = JOR_one_man_rule }
 		prerequisite = { focus = JOR_centralize_government }
 
-		x = 25
+		x = 26
 		y = 1
 		cost = 50
 		#search_filters = {  FOCUS_FILTER_RESEARCH }
