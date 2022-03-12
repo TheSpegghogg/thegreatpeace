@@ -1,0 +1,9 @@
+spriteTypes = {
+	
+	#Austria
+
+	spriteType = {
+		name = "GFX_idea_breisky"
+		texturefile = "gfx/interface/ideas/Walter_Breisky.dds"
+	}
+}

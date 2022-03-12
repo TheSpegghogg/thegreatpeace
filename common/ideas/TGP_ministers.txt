@@ -1,0 +1,21 @@
+ideas = {
+	
+	head_of_gov = {
+		walter_breisky = {
+
+		picture = breisky
+		allowed = {
+		original_tag = AUS
+		}
+		avaliabe = {
+		always = no
+		}
+		traits = {
+		conservative_minister
+		
+		staunch_constitutionalist
+		}
+		}
+	}
+
+}
