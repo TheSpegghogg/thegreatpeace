@@ -1,0 +1,26 @@
+state={
+	id=860
+	name="STATE_860"
+
+	history={
+	owner = ENG
+	add_core_of = ENG
+	add_core_of = IRE
+	add_core_of = NIR
+			victory_points = {
+			385 1 
+		}
+	buildings = {
+	infrastructure = 2
+	dockyard = 2
+	}
+	}
+
+	provinces={
+		276 385 11257 
+	}
+	manpower=563312
+	state_category=city
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}
