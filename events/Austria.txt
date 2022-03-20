@@ -1,0 +1,30 @@
+###########################
+# Austria Events
+###########################
+
+add_namespace = aus
+
+country_event = {
+	id = aus.1 # Hashemites ask for support
+	title = "The Hashemites ask for support in their upcoming war."
+	desc = aus.1.d
+	picture = GFX_
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = "We will support them"
+		ai_chance = { factor = 50 }
+	JOR = {
+		country_event = { id = jorsup.3 days = 1 }
+		add_timed_idea = { idea = JOR_support_austria days = 365 }
+	}
+	}
+	option = { 
+		name = "We won't help them"
+		ai_chance = { factor = 50 }
+	JOR = {
+		country_event = { id = jorsup.4 days = 1 } 
+	}
+	}
+}
