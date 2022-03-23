@@ -1,0 +1,32 @@
+state={
+	id=862
+	name="STATE_862"
+
+	history={
+	owner = ENG
+	add_core_of = ENG
+	add_core_of = IRE
+			victory_points = {
+			303 1 
+		}
+		victory_points = {
+			11293 10 
+		}
+	buildings = {
+	infrastructure = 2
+	dockyard = 2
+	11293 = {
+				naval_base = 6
+
+			}
+	}
+	}
+
+	provinces={
+		303 369 3342 3359 11293 11303 
+	}
+	manpower=121721
+	state_category=city
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}
