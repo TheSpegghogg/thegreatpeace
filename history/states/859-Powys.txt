@@ -1,0 +1,24 @@
+state={
+	id=859
+	name="STATE_859"
+
+	history={
+	owner = ENG
+	add_core_of = ENG
+	add_core_of = WLS
+			victory_points = {
+			311 1 
+		}
+	buildings = {
+	infrastructure = 2
+	}
+	}
+
+	provinces={
+		253 311 
+	}
+	manpower=102121
+	state_category=town
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

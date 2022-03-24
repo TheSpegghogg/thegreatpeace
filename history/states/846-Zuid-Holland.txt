@@ -1,0 +1,31 @@
+state={
+	id=846
+	name="STATE_846"
+
+	history={
+	owner = HOL
+	add_core_of = HOL
+			victory_points = {
+			3211 10 
+		}
+		victory_points = {
+			9498 20 
+		}
+	buildings = {
+	infrastructure = 2
+	arms_factory = 2
+	industrial_complex = 2
+	dockyard = 1
+	air_base = 2
+	}
+
+	}
+
+	provinces={
+		3211 9498 
+	}
+	manpower=2061500
+	state_category=metropolis
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

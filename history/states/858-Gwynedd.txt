@@ -1,0 +1,22 @@
+state={
+	id=858
+	name="STATE_858"
+
+	history={
+	owner = ENG
+	add_core_of = ENG
+	add_core_of = WLS
+	buildings = {
+	infrastructure = 2
+	dockyard = 3
+	}
+	}
+
+	provinces={
+		6363 9364 
+	}
+	manpower=1101310
+	state_category=town
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}
