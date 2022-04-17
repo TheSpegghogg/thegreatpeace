@@ -1,9 +1,0 @@
-spriteTypes = {
-	
-	#Austria
-
-	spriteType = {
-		name = "ferdinand"
-		texturefile = "gfx/leaders/AUS/Portrait_Austria_Franz_Ferdinand.dds"
-	}
-}
