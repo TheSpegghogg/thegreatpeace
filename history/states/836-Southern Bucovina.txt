@@ -1,0 +1,18 @@
+state={
+	id=836
+	name="STATE_836"
+
+	history={
+	owner = AUS
+	add_core_of = AUS
+	add_core_of = ROM
+	}
+
+	provinces={
+		3728 6761 11689 
+	}
+	manpower=639750
+	state_category=rural
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

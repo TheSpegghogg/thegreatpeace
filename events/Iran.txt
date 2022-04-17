@@ -1,0 +1,30 @@
+###########################
+# Iranian Events
+###########################
+
+add_namespace = iran
+
+country_event = {
+	id = iran.1 # Iran guarantees
+	title = "The Kurds ask for protection."
+	desc = iran.1.d
+	picture = GFX_
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = "They are no problem to us. We will protect them"
+		ai_chance = { factor = 70 }
+	KUR = {
+		country_event = { id = kurd.1 days = 2 }
+		}
+	give_guarantee = KUR
+	}
+	option = { 
+		name = "They are just pathetic"
+		ai_chance = { factor = 30 }
+	KUR = {
+		country_event = { id = kurd.2 days = 2 }
+		}
+	}
+}

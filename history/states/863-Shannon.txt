@@ -1,0 +1,21 @@
+state={
+	id=863
+	name="STATE_863"
+
+	history={
+	owner = ENG
+	add_core_of = ENG
+	add_core_of = IRE
+	buildings = {
+	dockyard = 2
+	}
+	}
+
+	provinces={
+		6289 11334 
+	}
+	manpower=103219
+	state_category=town
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

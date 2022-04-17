@@ -1,0 +1,42 @@
+###########################
+# Iraq Events
+###########################
+
+add_namespace = iraqq
+country_event = {
+	id = iraqq.1 # Hashemite order
+	title = "Jordan wants to unite the Hashemite monarchy"
+	desc = iraqq.1.d
+	picture = GFX_
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = "We will join them"
+		ai_chance = { factor = 60 }
+		JOR = {
+			add_state_core = 675
+			add_state_core = 291
+			transfer_state = 291		
+			transfer_state = 675
+			country_event = { id = jordan.3 days = 1 } 
+	}
+
+	}
+	option = { 
+		name = "We can stay independent"
+		ai_chance = { factor = 40 }
+	JOR = { 
+	create_wargoal = {
+		type = take_state_focus
+		target = IRQ
+		generator = { 291 675 }
+	}
+	add_state_core = 675
+	add_state_core = 291
+	remove_from_faction = IRQ
+	dismantle_faction = yes	
+	country_event = { id = jordan.4 days = 1 } 	
+	}
+	}
+}

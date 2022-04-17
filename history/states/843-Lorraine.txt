@@ -1,0 +1,24 @@
+state={
+	id=843
+	name="STATE_843"
+
+	history={
+	owner = GER
+	add_core_of = GER
+	add_core_of = FRA
+			victory_points = {
+			9559 10 
+		}
+	buildings = {
+	infrastructure = 4
+	}
+	}
+
+	provinces={
+		1346 3629 9559 11502 
+	}
+	manpower=957800
+	state_category=city
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

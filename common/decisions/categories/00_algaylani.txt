@@ -1,0 +1,7 @@
+JOR_algaylani_category = {
+	visible = {
+		original_tag = JOR
+		has_completed_focus = JOR_ultranationalism
+	}
+	priority = 10
+}

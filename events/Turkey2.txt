@@ -1,0 +1,30 @@
+###########################
+# Turkey Events
+###########################
+
+add_namespace = turk
+
+country_event = {
+	id = turk.1 # Hashemites ask for support
+	title = "The Hashemites ask for support in their upcoming war."
+	desc = turk.1.d
+	picture = GFX_
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = "We will support them"
+		ai_chance = { factor = 50 }
+	JOR = {
+		country_event = { id = jorsup.1 days = 1 } 
+		add_timed_idea = { idea = JOR_support_turkey days = 365 }
+	}
+	}
+	option = {
+		name = "We won't help them"
+		ai_chance = { factor = 50 }
+	JOR = {
+		country_event = { id = jorsup.2 days = 1 } 
+	}
+	}
+}

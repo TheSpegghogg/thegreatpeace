@@ -1,0 +1,33 @@
+###########################
+# Yemen Events
+###########################
+
+add_namespace = yem
+
+country_event = {
+	id = yem.1 # The Hashemite order asks for cooperation 
+	title = "The Hashemite order asks for cooperation"
+	desc = yem.1.d
+	picture = GFX_
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = "We will work with them."
+		ai_chance = { factor = 40 }
+	JOR = {
+		country_event = { id = jordan.5 days = 1 }
+		give_guarantee = YEM
+	}
+	YEM ={
+		give_guarantee = JOR
+	}
+	}
+	option = { 
+		name = "We won't help them!"
+		ai_chance = { factor = 60 }
+	JOR = {
+		country_event = { id = jordan.6 days = 1 } 
+	}
+	}
+}

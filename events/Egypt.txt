@@ -1,0 +1,19 @@
+###########################
+# Egypt Events
+###########################
+
+add_namespace = egy
+
+country_event = {
+	id = egy.1 # Hashemites influence our politics
+	title = "The House of Hashemite influences our politics"
+	desc = egy.1.d
+	picture = GFX_
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = "These are bad times for our nation..."
+		ai_chance = { factor = 100 }
+	}
+}
