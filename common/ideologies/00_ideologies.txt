@@ -152,6 +152,8 @@ ideologies = {
 			}
 			democratic_socialism = {  
 			}
+			progressive_democracy = {
+			}
 		}
 		dynamic_faction_names = {
 		}

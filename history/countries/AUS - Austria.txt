@@ -46,11 +46,11 @@ set_politics = {
 }
 
 set_popularities = {
-	democratic = 29
-	social_democracy = 20
-	market_liberalism = 33
-	neutrality = 8
-	despotic = 7
+	democratic = 37
+	social_democracy = 35
+	market_liberalism = 5
+	neutrality = 11
+	despotic = 9
 	revolutionary_socialism = 2
 	revisionary_communism = 1
 }

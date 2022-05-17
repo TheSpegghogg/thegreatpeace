@@ -1,0 +1,18 @@
+state={
+	id=890
+	name="STATE_890"
+	provinces={
+		1108 
+	}
+	history = {
+		owner = JOR
+		add_core_of = LEB
+
+
+
+	}
+	manpower=56783
+	state_category=town
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

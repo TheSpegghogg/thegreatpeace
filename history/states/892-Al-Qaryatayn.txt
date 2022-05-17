@@ -1,0 +1,18 @@
+state={
+	id=892
+	name="STATE_892"
+	provinces={
+		12442 
+	}
+	history = {
+		owner = KUR
+		add_core_of = KUR
+		add_core_of = SYR
+
+
+	}
+	manpower=1176
+	state_category=wasteland
+	buildings_max_level_factor=1.000
+	local_supplies=0.002
+}

@@ -1,0 +1,22 @@
+state={
+	id=887
+	name="STATE_887"
+	provinces={
+		1544 4440 7001 
+	}
+	history={
+		owner = JOR
+		add_core_of = JOR
+	buildings = {
+		infrastructure = 1
+		industrial_complex = 1
+}
+		victory_points = {
+			4440 1
+		}
+}
+	manpower=49321
+	state_category=rural
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}
